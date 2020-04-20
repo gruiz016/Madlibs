@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% block title %}Welcome, Make A Madlib! {% endblock
+%} {% block content %}
+<form action="/story" class="form">
+  <h1>Create Your MadLib Below:</h1>
+  <div class="form-element">
+    <label for="place">Place:</label>
+    <input type="text" name="place" placeholder="Name a place" id="place" />
+  </div>
+  <div class="form-element">
+    <label for="noun">Noun:</label>
+    <input type="text" name="noun" placeholder="give a noun" id="noun" />
+  </div>
+  <div class="form-element">
+    <label for="verb">Verb:</label>
+    <input type="text" name="verb" placeholder="give a verb" id="verb" />
+  </div>
+  <div class="form-element">
+    <label for="adjective">Adjective:</label>
+    <input
+      type="text"
+      name="adjective"
+      placeholder="give an adjective"
+      id="adjective"
+    />
+  </div>
+  <div class="form-element">
+    <label for="plural_noun">Plural Noun:</label>
+    <input
+      type="text"
+      name="plural_noun"
+      placeholder="give a plural noun"
+      id="plural_noun"
+    />
+  </div>
+  <button class="btn">Submit</button>
+</form>
+{% endblock%}
