@@ -1,6 +1,6 @@
 # Flask Madlibs
 
-In this exercise, I used Flask to make a Madlibs game.
+In this exercise, I used Flask to make a very simple Madlibs game.
 
 In Madlibs, you’re asked a series of questions, like this:
 
