@@ -70,3 +70,18 @@ input {
   border: 1px solid #db61e8;
   padding: 0.3rem;
 }
+
+@media (min-width: 40rem) {
+  body {
+    background: url("https://as1.ftcdn.net/jpg/01/92/27/16/500_F_192271694_V7POyggVQPHpyhFOyJVLW7AcxaqB8vzU.jpg");
+  }
+  .container {
+    grid-template-columns: 1fr 30rem 1fr;
+  }
+  .form-element {
+    justify-content: space-evenly;
+  }
+  .home {
+    display: none;
+  }
+}
